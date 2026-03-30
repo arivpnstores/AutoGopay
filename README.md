@@ -1,4 +1,4 @@
-# 🚀 AutoGoPay - Platform Otomasi Pembayaran GoPay QRIS
+# AutoGoPay - Platform Otomasi Pembayaran GoPay QRIS
 
 <div align="center">
 
@@ -15,38 +15,38 @@
 
 ---
 
-## 📋 Tentang AutoGoPay
+## Tentang AutoGoPay
 
 AutoGoPay adalah platform yang memudahkan merchant untuk menerima pembayaran GoPay secara otomatis melalui QRIS. Dengan AutoGoPay, Anda dapat:
 
-- ✅ Generate QRIS dinamis dengan amount custom
-- ✅ Cek status transaksi secara real-time
-- ✅ Terima notifikasi otomatis via webhook
-- ✅ Monitor semua transaksi di dashboard
-- ✅ Integrasi mudah dengan sistem Anda
+- Generate QRIS dinamis dengan amount custom
+- Cek status transaksi secara real-time
+- Terima notifikasi otomatis via webhook
+- Monitor semua transaksi di dashboard
+- Integrasi mudah dengan sistem Anda
 
 ---
 
-## 🎯 Fitur Utama
+## Fitur Utama
 
-### 🔄 Generate QRIS Otomatis
+### Generate QRIS Otomatis
 Buat QRIS dinamis dengan nominal custom untuk setiap transaksi. Setiap QRIS memiliki Transaction ID unik untuk tracking yang akurat.
 
-### ✅ Cek Status Real-time
+### Cek Status Real-time
 Pantau status pembayaran secara real-time menggunakan Transaction ID. Tidak perlu khawatir dengan transaksi yang memiliki nominal sama.
 
-### 🔔 Webhook Callback
+### Webhook Callback
 Terima notifikasi otomatis ke sistem Anda saat transaksi berhasil. Webhook dikirim secara real-time untuk update status pembayaran.
 
-### 📊 Dashboard Monitoring
+### Dashboard Monitoring
 Dashboard intuitif untuk monitoring semua transaksi, statistik pendapatan, dan performa bisnis Anda.
 
-### 🔒 Aman & Terpercaya
+### Keamanan & Keandalan
 Data terenkripsi dengan standar industri. Kami tidak menyimpan informasi sensitif seperti password GoPay Anda.
 
 ---
 
-## 🔄 Cara Kerja
+## Cara Kerja
 
 ```mermaid
 graph LR
@@ -64,15 +64,15 @@ graph LR
 
 1. **Request QRIS** - Sistem Anda request QRIS dengan nominal tertentu
 2. **Generate QRIS** - AutoGoPay generate QRIS dinamis dari GoPay
-3. **Customer Bayar** - Customer scan QRIS dan bayar via GoPay
+3. **Customer Bayar** - Customer scan QRIS dan bayar
 4. **Notifikasi Real-time** - AutoGoPay kirim webhook ke sistem Anda
 5. **Update Dashboard** - Transaksi otomatis tercatat di dashboard
 
 ---
 
-## 🚀 Cara Memulai
+## Cara Memulai
 
-### 1️⃣ Registrasi Akun
+### 1. Registrasi Akun
 
 Daftar akun gratis di [gopay.sawargipay.cloud](https://gopay.sawargipay.cloud/register)
 
@@ -80,7 +80,7 @@ Daftar akun gratis di [gopay.sawargipay.cloud](https://gopay.sawargipay.cloud/re
 - Telegram ID untuk notifikasi
 - Password yang kuat
 
-### 2️⃣ Beli Activation Key
+### 2. Beli Activation Key
 
 Hubungi bot Telegram [@AutoGopayBot](https://t.me/AutoGopayBot) untuk membeli Activation Key
 
@@ -90,11 +90,11 @@ Hubungi bot Telegram [@AutoGopayBot](https://t.me/AutoGopayBot) untuk membeli Ac
 - 30 Hari - Paket Bulanan
 - Custom - Sesuai kebutuhan
 
-### 3️⃣ Aktivasi Akun
+### 3. Aktivasi Akun
 
 Login ke dashboard dan masukkan Activation Key yang sudah dibeli
 
-### 4️⃣ Hubungkan GoPay
+### 4. Hubungkan GoPay
 
 Hubungkan akun GoPay merchant Anda dengan aman:
 
@@ -102,13 +102,13 @@ Hubungkan akun GoPay merchant Anda dengan aman:
 - Verifikasi OTP
 - Selesai! Siap terima pembayaran
 
-### 5️⃣ Mulai Terima Pembayaran
+### 5. Mulai Terima Pembayaran
 
 Gunakan dashboard atau integrasikan dengan sistem Anda untuk mulai terima pembayaran otomatis
 
 ---
 
-## 📊 Webhook Callback
+## Webhook Callback
 
 AutoGoPay mengirim webhook callback ke URL yang Anda daftarkan saat transaksi berhasil.
 
@@ -153,7 +153,7 @@ sequenceDiagram
 
 ---
 
-## 💡 Use Case
+## Use Case
 
 ### E-Commerce
 Terima pembayaran otomatis untuk toko online Anda. Webhook langsung update status order.
@@ -172,20 +172,20 @@ Integrasi payment gateway untuk marketplace dengan settlement otomatis.
 
 ---
 
-## 📈 Statistik & Monitoring
+## Statistik & Monitoring
 
 Dashboard AutoGoPay menyediakan:
 
-- 📊 **Total Transaksi** - Jumlah transaksi hari ini, minggu ini, bulan ini
-- 💰 **Total Pendapatan** - Revenue real-time dengan grafik
-- ✅ **Success Rate** - Persentase transaksi berhasil
-- ⏱️ **Response Time** - Monitoring performa sistem
-- 📋 **Transaction History** - Riwayat lengkap semua transaksi
-- 🔍 **Search & Filter** - Cari transaksi berdasarkan ID, tanggal, status
+- **Total Transaksi** - Jumlah transaksi hari ini, minggu ini, bulan ini
+- **Total Pendapatan** - Revenue real-time dengan grafik
+- **Success Rate** - Persentase transaksi berhasil
+- **Response Time** - Monitoring performa sistem
+- **Transaction History** - Riwayat lengkap semua transaksi
+- **Search & Filter** - Cari transaksi berdasarkan ID, tanggal, status
 
 ---
 
-## 🔐 Keamanan
+## Keamanan
 
 ### Enkripsi Data
 Semua data sensitif dienkripsi menggunakan standar industri (AES-256)
@@ -204,7 +204,7 @@ Semua komunikasi menggunakan HTTPS dengan SSL certificate
 
 ---
 
-## 📞 Support & Kontak
+## Support & Kontak
 
 ### Telegram Bot
 [@AutoGopayBot](https://t.me/AutoGopayBot) - Untuk pembelian Activation Key dan support
@@ -217,10 +217,7 @@ Semua komunikasi menggunakan HTTPS dengan SSL certificate
 
 ---
 
-## ❓ FAQ
-
-### Apakah AutoGoPay legal?
-Ya, AutoGoPay adalah platform legal yang menggunakan API resmi GoPay untuk merchant.
+## FAQ
 
 ### Berapa biaya yang dikenakan?
 Registrasi gratis. Anda hanya perlu membeli Activation Key sesuai durasi penggunaan.
@@ -229,7 +226,7 @@ Registrasi gratis. Anda hanya perlu membeli Activation Key sesuai durasi penggun
 Ya, semua data dienkripsi dan kami tidak menyimpan informasi sensitif seperti password GoPay.
 
 ### Bagaimana cara perpanjang layanan?
-Beli Activation Key baru via [@AutoGopayBot](https://t.me/AutoGopayBot) dan masukkan di dashboard.
+via [@AutoGopayBot](https://t.me/AutoGopayBot) dan masukkan email yang terdaftar di web.
 
 ### Apakah bisa refund?
 Activation Key yang sudah digunakan tidak bisa di-refund. Pastikan test dengan paket 1 hari terlebih dahulu.
@@ -245,37 +242,37 @@ Dokumentasi lengkap tersedia di dashboard setelah login.
 
 ---
 
-## 🌟 Kenapa Memilih AutoGoPay?
+## Kenapa Memilih AutoGoPay?
 
 | Fitur | AutoGoPay | Manual |
 |-------|-----------|--------|
-| Generate QRIS | ✅ Otomatis | ❌ Manual |
-| Webhook Callback | ✅ Real-time | ❌ Tidak ada |
-| Dashboard Monitoring | ✅ Lengkap | ❌ Tidak ada |
-| Transaction Tracking | ✅ Unique ID | ❌ Sulit track |
-| Response Time | ✅ <100ms | ❌ Lambat |
-| Support | ✅ 24/7 | ❌ Terbatas |
+| Generate QRIS | Otomatis | Manual |
+| Webhook Callback | Real-time | Tidak ada |
+| Dashboard Monitoring | Lengkap | Tidak ada |
+| Transaction Tracking | Unique ID | Sulit track |
+| Response Time | <100ms | Lambat |
+| Support | 24/7 | Terbatas |
 
 ---
 
-## 📝 Terms of Service
+## Terms of Service
 
 Dengan menggunakan AutoGoPay, Anda setuju dengan [Terms of Service](https://gopay.sawargipay.cloud/terms) kami.
 
 ---
 
-## 🎉 Siap Memulai?
+## Siap Memulai?
 
 <div align="center">
 
-### [🚀 Daftar Sekarang](https://gopay.sawargipay.cloud/register)
+### [Daftar Sekarang](https://gopay.sawargipay.cloud/register)
 
 **Registrasi gratis • Setup 5 menit • Support 24/7**
 
 ---
 
-Made with ❤️ by AutoGoPay Team
+Made by AutoGoPay Team
 
-© 2024 AutoGoPay. All rights reserved.
+© 2026 AutoGoPay. All rights reserved.
 
 </div>
