@@ -4,5 +4,17 @@
     "logo": "https://raw.githubusercontent.com/AutoFTbot/AutoGopay/main/logos/sawargipay.png",
     "website": "https://sawargipay.com",
     "description": "Tempat pembelian PULSA,PAKET DATA,E-WALLET DLL"
+  },
+  {
+    "name": "PRAS-STORE",
+    "logo": "https://raw.githubusercontent.com/AutoFTbot/AutoGopay/main/logos/pras-store.png",
+    "website": "https://pras-store.com",
+    "description": "VPN Premium Tercepat Untuk Streaming & Download"
+  },
+  {
+    "name": "JABAR VPN",
+    "logo": "https://raw.githubusercontent.com/AutoFTbot/AutoGopay/main/logos/jabar.png",
+    "website": "https://jabarvpn.net/",
+    "description": "VPN Premium Tercepat Untuk Streaming & Download"
   }
 ]
