@@ -22,17 +22,17 @@ Jika Anda menggunakan AutoGoPay untuk bisnis Anda dan ingin menampilkan logo tok
    ```
 
 2. **Tambahkan logo Anda**
-   - Buat folder baru di `autogopay/public/stores/` dengan nama toko Anda (lowercase, gunakan dash untuk spasi)
-   - Upload logo dengan nama `logo.png` atau `logo.svg`
-   - Contoh: `autogopay/public/stores/toko-saya/logo.png`
+   - Upload logo ke folder `logos/` di root repository
+   - Nama file: `nama-toko.png` atau `nama-toko.svg` (lowercase, gunakan dash untuk spasi)
+   - Contoh: `logos/toko-saya.png`
 
 3. **Update file stores.json**
-   - Edit file `autogopay/public/stores/stores.json`
-   - Tambahkan informasi toko Anda:
+   - Edit file `logos/stores.json`
+   - Tambahkan informasi toko Anda dengan URL GitHub raw:
    ```json
    {
      "name": "Nama Toko Anda",
-     "logo": "/stores/toko-saya/logo.png",
+     "logo": "https://raw.githubusercontent.com/AutoFTbot/AutoGopay/main/logos/toko-saya.png",
      "website": "https://tokosaya.com",
      "description": "Deskripsi singkat toko Anda"
    }
@@ -41,7 +41,8 @@ Jika Anda menggunakan AutoGoPay untuk bisnis Anda dan ingin menampilkan logo tok
 4. **Buat Pull Request**
    - Commit perubahan Anda
    ```bash
-   git add .
+   git add logos/toko-saya.png
+   git add logos/stores.json
    git commit -m "Add [Nama Toko] logo"
    git push origin main
    ```
@@ -55,19 +56,17 @@ Jika Anda menggunakan AutoGoPay untuk bisnis Anda dan ingin menampilkan logo tok
 - Proses review biasanya memakan waktu 1-3 hari kerja
 - Kami berhak menolak logo yang tidak sesuai dengan guidelines
 
-### Contoh Struktur Folder
+### Contoh Struktur Repository
 
 ```
-autogopay/public/stores/
-├── stores.json
-├── example-store/
-│   └── logo.png
-├── toko-elektronik/
-│   └── logo.png
-├── warung-kopi/
-│   └── logo.svg
-└── toko-buku/
-    └── logo.png
+AutoGopay/
+├── logos/                    
+│   ├── stores.json         
+│   ├── example-store.svg
+│   ├── toko-elektronik.png
+│   ├── warung-kopi.svg
+│   └── toko-saya.png        # Logo Anda
+└── CONTRIBUTING.md
 ```
 
 ### Contoh stores.json
@@ -76,24 +75,35 @@ autogopay/public/stores/
 [
   {
     "name": "Example Store",
-    "logo": "/stores/example-store/logo.png",
+    "logo": "https://raw.githubusercontent.com/AutoFTbot/AutoGopay/main/logos/example-store.svg",
     "website": "https://example.com",
     "description": "Contoh toko yang menggunakan AutoGoPay untuk payment gateway"
   },
   {
     "name": "Toko Elektronik",
-    "logo": "/stores/toko-elektronik/logo.png",
+    "logo": "https://raw.githubusercontent.com/AutoFTbot/AutoGopay/main/logos/toko-elektronik.png",
     "website": "https://tokoelektronik.com",
     "description": "Toko elektronik terpercaya sejak 2020"
   },
   {
     "name": "Warung Kopi",
-    "logo": "/stores/warung-kopi/logo.svg",
+    "logo": "https://raw.githubusercontent.com/AutoFTbot/AutoGopay/main/logos/warung-kopi.svg",
     "website": "https://warungkopi.id",
     "description": "Kopi berkualitas dengan harga terjangkau"
   }
 ]
 ```
+
+### Format URL Logo
+
+Logo akan diambil dari GitHub raw URL dengan format:
+```
+https://raw.githubusercontent.com/AutoFTbot/AutoGopay/main/logos/[nama-file]
+```
+
+Contoh:
+- `https://raw.githubusercontent.com/AutoFTbot/AutoGopay/main/logos/example-store.svg`
+- `https://raw.githubusercontent.com/AutoFTbot/AutoGopay/main/logos/toko-saya.png`
 
 ## Aturan Umum
 
